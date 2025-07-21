@@ -1,1 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body p {
+  font-family: "Roboto", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
 @import "tailwindcss";
