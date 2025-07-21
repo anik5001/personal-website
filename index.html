@@ -6,6 +6,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Document</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <body class="max-w-7xl mx-auto">
@@ -24,7 +33,7 @@
         <div class="">
           <h1 class="font-extrabold text-[70px] whitespace-normal">
             HELLO, I'M <br />
-            ANIK SARKER
+            <span class="text-[#FF8367]"> ANIK SARKER</span>
           </h1>
           <p class="py-7">
             A full stack allaround designer that placerat <br />
@@ -32,15 +41,18 @@
           </p>
           <button class="bg-[#FF8063] py-3 px-7 rounded-[6px]">Hire Me</button>
         </div>
-        <div>
+        <div class="relative">
           <img
             class="max-w-[100%] h-[600px]"
             src="./images/do not use this pic.png"
             alt=""
           />
+          <div
+            class="bg-[#F86B61] w-[100px] h-[100px] rounded-full absolute bottom-[55px] left-[350px]"
+          ></div>
         </div>
       </section>
-      <section class="grid sm:flex items-center justify-around my-10">
+      <section class="grid sm:flex items-center justify-around my-20">
         <div>
           <img
             class="max-w-[100%] h-[600px]"
@@ -58,12 +70,12 @@
             specimen book.
           </p>
           <button class="bg-[#FF8063] py-3 px-7 rounded-[6px]">
-            Download CV
+            <i class="fa-solid fa-download"></i> Download CV
           </button>
         </div>
       </section>
-      <section class="my-16 bg-[hsl(0,20%,98%)]">
-        <h1 class="text-center font-bold text-[48px] mb-20">
+      <section class="my-20 bg-[hsl(0,20%,98%)]">
+        <h1 class="text-center font-bold text-[48px] mb-[70px]">
           LATEST WORKING PROJECT
         </h1>
         <div class="grid md:grid-cols-3">
@@ -124,7 +136,9 @@
       </section>
 
       <section class="grid text-center justify-center">
-        <div class="font-bold text-[40px] my-[20px]">STAY CONNECTED</div>
+        <div class="font-bold text-[40px] my-[20px] mt-[150px]">
+          STAY CONNECTED
+        </div>
         <div class="font-medium text-[30px] my-[20px]">hello@design.com</div>
         <div class="flex gap-5 my-[20px]">
           <img src="./icons/Group 33059.png" alt="" />
